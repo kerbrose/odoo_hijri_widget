@@ -1034,15 +1034,15 @@
         display: {
             icons: {
                 type: 'icons',
-                time: 'fa-solid fa-clock',
-                date: 'fa-solid fa-calendar',
+                time: 'fa fa-clock-o',
+                date: 'fa fa-calendar',
                 up: 'fa fa-solid fa-arrow-up',
                 down: 'fa fa-solid fa-arrow-down',
                 previous: 'fa fa-solid fa-chevron-left',
                 next: 'fa fa-solid fa-chevron-right',
-                today: 'fa-solid fa-calendar-check',
-                clear: 'fa-solid fa-trash',
-                close: 'fa-solid fa-xmark'
+                today: 'fa fa-calendar-check',
+                clear: 'fa fa-trash',
+                close: 'fa fa-xmark'
             },
             sideBySide: false,
             calendarWeeks: false,

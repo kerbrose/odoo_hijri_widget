@@ -1,43 +1,45 @@
 {
     'name': 'Hijri Date Widget',
-    'version': '15.0.1.2.0',
+    'version': '16.0.0.0.1',
     'summary': 'Um Alqura Hijri date widget',
     'description': '''this module would enable hijri date widget across Odoo platform''',
-    'author': 'Khaled Said (kerbrose@hotmail.com)',
+    'author': 'Khaled Said (kerbrose)',
     'website': 'https://kerbrose.github.io/',
-    'license': 'LGPL-3',
-    'category': 'Tools',
+    'category': 'Hidden/Tools',
     'depends': [
         'account',
         'base',
         'web'
     ],
     'data': [
+        'views/account_move.xml',
     ],
     'demo': [
         ''
     ],
     'auto_install': False,
-    'application': True,
+    'application': False,
     'installable': True,
     'assets': {
-        'web._assets_common_styles': [
+        'web.assets_common': [
             'kerbrose_hijri_widget/static/lib/tempusdominus6/tempusdominus.css',
-        ],
-        'web._assets_common_scripts': [
             'kerbrose_hijri_widget/static/lib/popper/popper.js',
-            'kerbrose_hijri_widget/static/lib/fontawesome/fontawesome.js',
+            # 'kerbrose_hijri_widget/static/lib/fontawesome/fontawesome.js',
             'kerbrose_hijri_widget/static/lib/tempusdominus6/tempusdominus.js',
         ],
         'web.assets_backend': [
-            'kerbrose_hijri_widget/static/src/js/k_td_hijri_date_picker.js',
-        ],
+            'kerbrose_hijri_widget/static/src/datepicker_hijri/datepicker_hijri.js',
+            'kerbrose_hijri_widget/static/src/datepicker_hijri/datepicker_hijri.xml',
+            'kerbrose_hijri_widget/static/src/fields/date_field_hijri.js',
+            'kerbrose_hijri_widget/static/src/fields/date_field_hijri.xml',
+            'kerbrose_hijri_widget/static/src/fields/datetime_field_hijri.js',
+            'kerbrose_hijri_widget/static/src/fields/datetime_field_hijri.xml',
+        ]
     },
-    'qweb': [
-
-    ],
-    'images': ['static/description/icon.png'],
-    # 'currency ': 'USD',
-    # 'price': 60,
-    'support': 'kerbrose@hotmail.com',
+    'qweb': [],
+    'images': ['static/description/icon.svg'],
+    'license': 'OPL-1',
+    'currency ': 'USD',
+    'price': 10,
+    'support': 'contact the developer',
 }
