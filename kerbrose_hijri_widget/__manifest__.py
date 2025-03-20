@@ -40,6 +40,6 @@
     'images': ['static/description/icon.svg'],
     'license': 'OPL-1',
     'currency ': 'USD',
-    'price': 10,
+    'price': 16,
     'support': 'contact the developer',
 }
