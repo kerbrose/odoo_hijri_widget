@@ -5,7 +5,7 @@
     'description': '''this module would enable hijri date widget across Odoo platform''',
     'author': 'Khaled Said (kerbrose)',
     'website': 'https://kerbrose.github.io/',
-    'category': 'Hidden/Tools',
+    'category': 'Tools',
     'depends': [
         'account',
         'base',
