@@ -3,7 +3,7 @@
     'version': '15.0.1.2.0',
     'summary': 'Um Alqura Hijri date widget',
     'description': '''this module would enable hijri date widget across Odoo platform''',
-    'author': 'Khaled Said (kerbrose@hotmail.com)',
+    'author': 'Khaled Said (kerbrose)',
     'website': 'https://kerbrose.github.io/',
     'license': 'LGPL-3',
     'category': 'Tools',
