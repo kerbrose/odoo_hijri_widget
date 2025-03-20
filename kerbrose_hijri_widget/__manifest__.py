@@ -37,7 +37,7 @@
 
     ],
     'images': ['static/description/icon.png'],
-    # 'currency ': 'USD',
-    # 'price': 60,
+    'currency ': 'USD',
+    'price': 15,
     'support': 'kerbrose@hotmail.com',
 }
